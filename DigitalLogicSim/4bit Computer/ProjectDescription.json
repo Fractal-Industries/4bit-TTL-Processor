@@ -1,0 +1,122 @@
+{
+  "ProjectName": "4bit Computer",
+  "DLSVersion_LastSaved": "2.1.6",
+  "DLSVersion_EarliestCompatible": "2.0.0",
+  "CreationTime": "2026-04-20T00:00:00.000",
+  "LastSaveTime": "2026-11-16T00:00:00.000",
+  "Prefs_MainPinNamesDisplayMode": 2,
+  "Prefs_ChipPinNamesDisplayMode": 1,
+  "Prefs_GridDisplayMode": 1,
+  "Prefs_Snapping": 1,
+  "Prefs_StraightWires": 0,
+  "Prefs_SimPaused": false,
+  "Prefs_SimTargetStepsPerSecond": 700,
+  "Prefs_SimStepsPerClockTick": 250,
+  "AllCustomChipNames":[
+    "!",
+    "AND",
+    "OR",
+    "XOR",
+    "!OR",
+    "X!OR",
+    "4-bit ADD",
+    "4-bit buffer",
+    "!AND",
+    "D_LATCH",
+    "2AndOr",
+    "PC w-o reset",
+    "Selector",
+    "PC w reset wrong",
+    "PC",
+    "MEM_ctrl",
+    "4d_Latch",
+    "8_en",
+    "4!OR",
+    "4-bit SUB",
+    "ALU",
+    "NAND_en",
+    "4way_NAND",
+    "4!AND",
+    "4-bit REG",
+    "CPU",
+    "3!OR",
+    "Delay",
+    "OpDecoder",
+    "3AND",
+    "ReadSelect",
+    "WriteSelect",
+    "Computer",
+    "RAM",
+    "2sel_en"
+  ],
+  "StarredList":[
+    {
+      "Name":"IN/OUT",
+      "IsCollection":true
+    },
+    {
+      "Name":"Gates",
+      "IsCollection":true
+    },
+    {
+      "Name":"More Gates",
+      "IsCollection":true
+    },
+    {
+      "Name":"Components",
+      "IsCollection":true
+    }
+  ],
+  "ChipCollections":[
+    {
+      "Chips":["NAND","CLOCK","PULSE","KEY","3-STATE BUFFER"],
+      "IsToggledOpen":true,
+      "Name":"BASIC"
+    },
+    {
+      "Chips":["IN-1","IN-4","IN-8","OUT-1","OUT-4","OUT-8"],
+      "IsToggledOpen":true,
+      "Name":"IN/OUT"
+    },
+    {
+      "Chips":["1-4BIT","1-8BIT","4-8BIT","4-1BIT","8-4BIT","8-1BIT"],
+      "IsToggledOpen":true,
+      "Name":"MERGE/SPLIT"
+    },
+    {
+      "Chips":["BUS-1","BUS-4","BUS-8"],
+      "IsToggledOpen":true,
+      "Name":"BUS"
+    },
+    {
+      "Chips":["7-SEGMENT","DOT DISPLAY","RGB DISPLAY","LED"],
+      "IsToggledOpen":true,
+      "Name":"DISPLAY"
+    },
+    {
+      "Chips":["ROM 256×16"],
+      "IsToggledOpen":true,
+      "Name":"MEMORY"
+    },
+    {
+      "Chips":["BUZZER","4-bit buffer","8_en","D_LATCH","4d_Latch","4-bit REG","PC w-o reset","PC w reset wrong","4-bit ADD","4-bit SUB","4way_NAND","NAND_en","2AndOr","Selector","Delay","OpDecoder","ReadSelect","WriteSelect","2sel_en"],
+      "IsToggledOpen":true,
+      "Name":"OTHER"
+    },
+    {
+      "Chips":["!","AND","!AND","OR","!OR","XOR","X!OR"],
+      "IsToggledOpen":false,
+      "Name":"Gates"
+    },
+    {
+      "Chips":["3AND","3!OR","4!AND","4!OR"],
+      "IsToggledOpen":false,
+      "Name":"More Gates"
+    },
+    {
+      "Chips":["Computer","RAM","CPU","ALU","MEM_ctrl","PC"],
+      "IsToggledOpen":true,
+      "Name":"Components"
+    }
+  ]
+}

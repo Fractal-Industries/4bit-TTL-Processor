@@ -1,0 +1,186 @@
+{
+  "DLSVersion": "2.1.6",
+  "Name": "3!OR",
+  "NameLocation": 0,
+  "ChipType": 0,
+  "Size": {
+    "x": 0.725,
+    "y": 0.75
+  },
+  "Colour": {
+    "r": 0.5597164,
+    "g": 0.541304231,
+    "b": 0.0,
+    "a": 1
+  },
+  "InputPins":[
+    {
+      "Name":"IN A",
+      "ID":222088949,
+      "Position":{
+        "x":-16.75,
+        "y":-8.0
+      },
+      "BitCount":1,
+      "Colour":0,
+      "ValueDisplayMode":0
+    },
+    {
+      "Name":"IN B",
+      "ID":1311752862,
+      "Position":{
+        "x":-16.75,
+        "y":-8.5
+      },
+      "BitCount":1,
+      "Colour":0,
+      "ValueDisplayMode":0
+    },
+    {
+      "Name":"IN C",
+      "ID":963660784,
+      "Position":{
+        "x":-16.75,
+        "y":-9.0
+      },
+      "BitCount":1,
+      "Colour":0,
+      "ValueDisplayMode":0
+    }
+  ],
+  "OutputPins":[
+    {
+      "Name":"OUT",
+      "ID":1667512610,
+      "Position":{
+        "x":-11.25,
+        "y":-8.25
+      },
+      "BitCount":1,
+      "Colour":0,
+      "ValueDisplayMode":0
+    }
+  ],
+  "SubChips":[
+    {
+      "Name":"OR",
+      "ID":213142676,
+      "Label":"",
+      "Position":{
+        "x":-14.9025,
+        "y":-8.125
+      },
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":1050705711}],
+      "InternalData":null
+    },
+    {
+      "Name":"OR",
+      "ID":559247607,
+      "Label":"",
+      "Position":{
+        "x":-13.9025,
+        "y":-8.25
+      },
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":1050705711}],
+      "InternalData":null
+    },
+    {
+      "Name":"!",
+      "ID":185730017,
+      "Label":"",
+      "Position":{
+        "x":-13.0775,
+        "y":-8.25
+      },
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":1783937594}],
+      "InternalData":null
+    }
+  ],
+  "Wires":[
+    {
+      "SourcePinAddress":{
+        "PinID":1050705711,
+        "PinOwnerID":213142676
+      },
+      "TargetPinAddress":{
+        "PinID":1050068549,
+        "PinOwnerID":559247607
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
+    },
+    {
+      "SourcePinAddress":{
+        "PinID":1050705711,
+        "PinOwnerID":559247607
+      },
+      "TargetPinAddress":{
+        "PinID":329937071,
+        "PinOwnerID":185730017
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
+    },
+    {
+      "SourcePinAddress":{
+        "PinID":0,
+        "PinOwnerID":222088949
+      },
+      "TargetPinAddress":{
+        "PinID":1050068549,
+        "PinOwnerID":213142676
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
+    },
+    {
+      "SourcePinAddress":{
+        "PinID":0,
+        "PinOwnerID":1311752862
+      },
+      "TargetPinAddress":{
+        "PinID":256678481,
+        "PinOwnerID":213142676
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":-15.375,"y":-8.5},{"x":-15.375,"y":-8.25},{"x":0.0,"y":0.0}]
+    },
+    {
+      "SourcePinAddress":{
+        "PinID":0,
+        "PinOwnerID":963660784
+      },
+      "TargetPinAddress":{
+        "PinID":256678481,
+        "PinOwnerID":559247607
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":-14.5,"y":-9.0},{"x":-14.5,"y":-8.375},{"x":0.0,"y":0.0}]
+    },
+    {
+      "SourcePinAddress":{
+        "PinID":1783937594,
+        "PinOwnerID":185730017
+      },
+      "TargetPinAddress":{
+        "PinID":0,
+        "PinOwnerID":1667512610
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
+    }
+  ],
+  "Displays":[]
+}
